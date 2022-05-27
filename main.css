@@ -1,0 +1,47 @@
+body {
+  font-size: 20px;
+}
+.dentaku {
+  width: 480px;
+}
+
+#result {
+  color: white;
+  background-color: black;
+  text-align: right;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.button-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button:nth-child(4n) {
+  font-size: 20px;
+}
+
+button:nth-of-type(15) {
+  font-size: 20px;
+}
+
+button:nth-of-type(18) {
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  font-size: 15px;
+}
+
+.button {
+  width: 25%;
+}
+
+
+
+.large-button {
+  width: 50%;
+}
+
