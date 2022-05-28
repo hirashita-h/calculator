@@ -16,10 +16,13 @@ $(".num").click(function () {
   // A-1 0を押したときは0のまま
   if (result.textContent == "0" && val == "0") {
     result.textContent = "0";
-    // A-2 その他の数字ならば置き換わる
+  // A-2 表示が0で入力した数字が00の場合、0を表示
+  }else if(result.textContent =="0" && val == "00"){
+    result.textContent = "0";
+  // A-3 その他の数字ならば置き換わる
   } else if (result.textContent == "0") {
     result.textContent = val;
-    // B.表示が0以外の場合
+  // C. それ以外の場合
   } else {
     result.textContent += val;
   }
